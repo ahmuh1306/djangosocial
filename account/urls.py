@@ -2,7 +2,7 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-    # post views
+  
     # previous login view
     #url(r'^login/$', views.user_login, name='login'),
 
@@ -16,4 +16,5 @@ urlpatterns = [
     url(r'^logout-then-login/$',
         'django.contrib.auth.views.logout_then_login', 
         name='logout_then_login'),
+    url(r'^$', views.dashboard, name ='dashboard'),
 ]

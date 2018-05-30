@@ -22,8 +22,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="account\static\css\base.css" />
+    <Content Include="account\templates\account\dashboard.html" />
     <Content Include="account\templates\account\login.html" />
     <Content Include="account\templates\base.html" />
+    <Content Include="account\templates\registration\logged_out.html" />
     <Content Include="account\templates\registration\login.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
